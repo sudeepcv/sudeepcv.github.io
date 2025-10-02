@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Logs
+logs/
+*.log
+
+# Editor/IDE
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.idea/
+
+# OS temp files
+*.swp
+*~
+
+# Build output (if you decide to add a build step later)
+dist/
+build/
+
+# Optional dev files (uncomment to ignore)
+# Docker and dev scripts
+# Dockerfile
+# docker-compose.yml
+# scripts/
+# package.json
+
+# Assets cache
+assets/*.cache
+
+# Git metadata (do not ignore .git itself)
+# .git/

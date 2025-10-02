@@ -1,0 +1,56 @@
+{
+  "profileImage": "assets/ACg8ocKHd7asKlkUvaun-kyQ7qZ1hLyc86W_3V2zPWe-f1U_IutMuME=s576-c-no",
+  "name": "Sudeep C V",
+  "title": "Full Stack Java Developer",
+  "tagline": "Crafting scalable applications with Java, React, and modern DevOps tools",
+  "links": {
+    "github": "https://github.com/sudeepcv/",
+    "linkedin": "https://www.linkedin.com/in/sudeepcv/",
+    "stackoverflow": "https://stackoverflow.com/users/3141589/sudeep-cv",
+    "email": "informsudeep@gmail.com"
+  },
+  "about": "I am a Full Stack Java Developer with over 10 years of experience building scalable, user-friendly applications using Java, Spring Boot, React, Docker, and Kubernetes. I love learning new technologies and solving complex problems through clean engineering practices.",
+  "skills": [
+  { "name": "Java", "logo": "assets/java-original-wordmark.svg" },
+  { "name": "Spring Boot", "logo": "assets/spring-original.svg" },
+  {"name":"Hibernate" ,"logo":"assets/hibernate-logo.svg"},
+    "JPA",
+  { "name": "Maven", "logo": "assets/maven-original.svg" },
+  { "name": "JavaScript", "logo": "assets/javascript-original.svg" },
+  { "name": "React", "logo": "assets/react-original-wordmark.svg" },
+    "RESTful Web Services",
+    { "name": "Git", "logo": "assets/git-original.svg" },
+    { "name": "Docker", "logo": "assets/docker-original.svg" },
+    { "name": "Kubernetes", "logo": "assets/kubernetes-plain.svg" }
+  ],
+  "experience": [
+    {
+      "company": "PiServe Technologies Private Limited",
+      "logo": "assets/logo-full.svg",
+      "period": "Jan 2016 - Present",
+      "role": "Full Stack Java Developer",
+      "details": [
+        "Vodafone Global — 3-minute infrastructure provisioning at Vodafone Global using vSphere Automation SDK for Java + Spring Boot + ReactJS.",
+        "QHSE — Majid Al Futtaim — Ensuring <1% accident rate with a customized EHS application (as React Native mobile application developer).",
+        "Worked across the full stack — authoring RESTful services in Java/Spring, creating responsive React interfaces, and integrating mobile clients (React Native) with backend systems and databases."
+      ]
+    },
+    {
+      "company": "Xminds",
+  "logo": "assets/logo-20a83a48cefb3c90c954d7e7696929d6.webp",
+      "period": "27 Oct 2014 - 22 May 2015",
+      "role": "Java Developer",
+      "details": [
+       "I have been assigned to a content marketing provider (communique) project as a junior java developer.The project is developed on top of the Java Spring Framework for the backend and AngularJS for the frontend.I have consistently made contributions to both the frontend and the backend of the project."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Indira Gandhi College of Arts & Science",
+      "year": "2010",
+      "degree": "BSc Computer Science"
+    }
+  ]
+
+}

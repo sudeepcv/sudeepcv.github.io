@@ -1,0 +1,88 @@
+
+/* Small custom styles to complement Tailwind */
+/* Visually hidden but focusable skip link */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.sr-only.focus:not-sr-only, .sr-only:focus, .sr-only:active{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto;white-space:normal}
+
+/* Ensure clear focus outlines for keyboard users */
+*:focus{outline-offset:3px}
+.nav-link:focus{outline:3px solid rgba(37,99,235,0.18); border-radius:6px}
+/* Improve overall readability: larger base type and scaled headings */
+html, body { font-size: 18px; }
+body { line-height: 1.6; }
+h1{font-size:2.1rem}
+h2{font-size:1.6rem}
+h3{font-size:1.25rem}
+.nav-link{font-size:1rem}
+.skill-badge{font-size:0.98rem}
+
+/* Simple accessible animation helpers */
+.animate-fade-up{opacity:1; transform:none}
+#skillsGrid > div, #experienceTimeline > div, #educationList > div{opacity:0; transform:translateY(10px)}
+
+/* Higher-specificity rule so adding the class overrides the ID-based hidden rule */
+#skillsGrid > div.animate-fade-up,
+#experienceTimeline > div.animate-fade-up,
+#educationList > div.animate-fade-up {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: opacity .6s ease, transform .6s ease;
+}
+
+/* Skill badge styles */
+.skill-badge{background: #ffffff}
+.skill-logo{width:24px;height:24px;object-fit:contain}
+
+/* Make grid items visually consistent */
+#skillsGrid{display:grid}
+#skillsGrid .skill-badge{min-height:44px}
+
+/* Company logo in experience timeline */
+.company-logo{width:64px;max-width:100px;height:48px;object-fit:contain}
+
+/* marker container centers content and provides stable layout */
+.experience-marker{width:64px;display:flex;align-items:center;justify-content:center}
+
+/* Make long about text readable on narrow screens */
+.prose p{line-height:1.6}
+
+/* Hero tweaks */
+#hero{background:transparent}
+#heroProfile{flex-shrink:0}
+
+/* Full-viewport section and scroll snapping for a portfolio feel */
+main#mainContent{
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+}
+.section-viewport{
+  min-height: calc(100vh - 120px); /* account for header/footer padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scroll-snap-align: start;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Active nav link */
+.nav-active{color:#2563eb;font-weight:600}
+
+/* Improve hero layout on large screens when made full-viewport */
+.section-viewport#hero{align-items:center}
+
+.project-card{display:none}
+/* Right side dot navigation */
+.dot-nav{position:fixed;right:18px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:8px;z-index:40}
+.dot{width:10px;height:10px;border-radius:9999px;background:#cbd5e1;box-shadow:0 1px 2px rgba(2,6,23,0.06);cursor:pointer}
+.dot.active{background:#2563eb;transform:scale(1.15)}
+
+@media (max-width: 768px){
+  .dot-nav{display:none}
+}
+
+
+@media (prefers-reduced-motion: reduce){
+  *{transition:none!important}
+}
