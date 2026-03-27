@@ -1,7 +1,7 @@
 {
   "profileImage": "assets/ACg8ocKHd7asKlkUvaun-kyQ7qZ1hLyc86W_3V2zPWe-f1U_IutMuME=s576-c-no",
   "name": "Sudeep C V",
-  "title": "Full Stack Java Developer",
+  "title": "Software Engineer",
   "tagline": "Crafting scalable applications with Java, React, and modern DevOps tools",
   "links": {
     "github": "https://github.com/sudeepcv/",
@@ -9,7 +9,7 @@
     "stackoverflow": "https://stackoverflow.com/users/3141589/sudeep-cv",
     "email": "informsudeep@gmail.com"
   },
-  "about": "I am a Full Stack Java Developer with over 10 years of experience building scalable, user-friendly applications using Java, Spring Boot, React, Docker, and Kubernetes. I love learning new technologies and solving complex problems through clean engineering practices.",
+  "about": "I am a Software Engineer with over 10 years of experience building scalable, user-friendly applications using Java, Spring Boot, React, Docker, and Kubernetes. I love learning new technologies and solving complex problems through clean engineering practices.",
   "skills": [
   { "name": "Java", "logo": "assets/java-original-wordmark.svg" },
   { "name": "Spring Boot", "logo": "assets/spring-original.svg" },
